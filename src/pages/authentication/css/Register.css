@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.centered-element{
+ 
+    width: 800px;
+    height: 500px;
+}
+
+
