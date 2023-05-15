@@ -140,7 +140,7 @@ const Contrat = () => {
                     </TableHead>
                     <TableBody>
                         {contrats.map((contrat) => (
-                            <TableRow key={client.id}>
+                            <TableRow key={contrat.id}>
                                 <TableCell>{contrat.typedecontrat}</TableCell>
                                 <TableCell>{contrat.nomdesocite}</TableCell>
                                 <TableCell>{contrat.regles}</TableCell>

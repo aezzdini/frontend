@@ -23,6 +23,7 @@ const Missions = Loadable(lazy(() => import('pages/components-overview/Missions'
 const Profile = Loadable(lazy(() => import('pages/components-overview/Profile')));
 const Contrat = Loadable(lazy(() => import('pages/components-overview/Contrat')));
 const AddContrat = Loadable(lazy(() => import('pages/components-overview/AddContrat')));
+const EditContrat = Loadable(lazy(() => import('pages/components-overview/EditContrat')));
 const SendMail = Loadable(lazy(() => import('pages/components-overview/SendMail')));
 const Client = Loadable(lazy(() => import('pages/components-overview/Client')));
 const AddClient =Loadable(lazy(() => import('pages/components-overview/AddClient')));
